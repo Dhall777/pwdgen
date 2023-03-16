@@ -4,7 +4,7 @@
 
 
 
-extremely minimalist password generation tool.  just install, run one command, then you have a strong, 32-character password.
+extremely minimal password generation tool.  just install, run one command, then you have a strong, 32-character password.
 
 To generate a password:
 ```elixir
