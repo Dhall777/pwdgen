@@ -1,0 +1,4 @@
+%{
+  "puid": {:hex, :puid, "2.1.0", "8ecf3644986ff4ffd35c2c2b4ebaa4eae35da79569326d9abf28f3c8fffad886", [:mix], [], "hexpm", "0e95c81ae845411ea4fe551693b75389eb24a3fbd741537b1f91edbd55c53da0"},
+  "random_password": {:hex, :random_password, "1.2.0", "7fcf453e16014c6e3375748093db2f1bca4444b8fd0ca9178388af817ef33365", [:mix], [{:puid, "~> 2.0", [hex: :puid, repo: "hexpm", optional: false]}], "hexpm", "06c388abb5bd363bb5684139061fcff325c0a36b500372841d8381c35a108daf"},
+}
