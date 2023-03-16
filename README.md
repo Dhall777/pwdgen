@@ -1,21 +1,14 @@
 # Pwdgen
 
-**TODO: Add description**
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `pwdgen` to your list of dependencies in `mix.exs`:
 
+
+extremely minimalist password generation tool.  just install, run one command, then you have a strong, 32-character password.
+
+To generate a password:
 ```elixir
-def deps do
-  [
-    {:pwdgen, "~> 0.1.0"}
-  ]
-end
+Pwdgen.Generator.generate()
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/pwdgen](https://hexdocs.pm/pwdgen).
-
+To update password configuration options, refer to Pwdgen/lib/Pwdgen/Generator.ex
